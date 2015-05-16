@@ -2,15 +2,6 @@
 #GeorgeKirm
 import time
 
-"""
-int daysI,monthsI,yearsI,timeInDaysI,disektaYearsI,i
-# timeInDaysI=sunolo hmerwn, disektaYearsI=ari8mos disektwn etwn apo tin arxi mexri ta gene8lia */
-int hms,mis,xrs,disektaYearsTodayI,timeInDaysTodayI
-# hms-mis-xrs=7-11-2013, disektaYearsTodayI=disekta eti apo tin arxi mexri simera,d*/
-int migt,xrgt;
-# telikoi mines kai xronia
-"""
-
 def limitOfDaysInMonths(year, month):
 	if year%400== 0 or year%4== 0 and year%100!= 0:
 		if month== 2:
